@@ -9,7 +9,7 @@ phases:
       - curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.15.11/2020-07-08/bin/darwin/amd64/kubectl # Download kubectl 
       - chmod +x ./kubectl
       - mkdir ~/.kube
-      - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name TeamE # Set cluster TeamE as default cluster
+      - aws eks --region $AWS_DEFAULT_REGION update-kubeconfig --name Skccuser07 # Set cluster TeamE as default cluster
   pre_build:
     commands:
       - echo Region = $AWS_DEFAULT_REGION # Check Environment Variables

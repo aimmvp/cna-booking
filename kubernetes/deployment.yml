@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: booking
-          image: 052937454741.dkr.ecr.ap-northeast-2.amazonaws.com/team-e-booking:latest # ECR image URI
+          image: 496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/skcc07-booking:latest # ECR image URI
           ports:
             - containerPort: 8080
           readinessProbe:
